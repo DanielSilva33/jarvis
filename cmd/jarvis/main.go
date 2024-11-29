@@ -7,14 +7,12 @@ import (
 	"time"
 
 	"github.com/DanielSilva33/jarvis/internal/speech"
-
-	"github.com/joho/godotenv"
+	"github.com/DanielSilva33/jarvis/utils"
 )
 
 func main() {
-	if err := godotenv.Load(); err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
-	}
+	// Load .env file
+	utils.LoadEnv()
 
 	fmt.Println("Starting Jarvis...")
 
