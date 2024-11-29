@@ -7,7 +7,7 @@ require (
 	github.com/gordonklaus/portaudio v0.0.0-20230709114228-aafa478834f5
 )
 
-require github.com/sashabaranov/go-openai v1.35.7 // indirect
+require github.com/sashabaranov/go-openai v1.35.7
 
 require (
 	cloud.google.com/go v0.116.0 // indirect
