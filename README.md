@@ -34,3 +34,7 @@ To run the project locally, follow these steps:
     ```bash
     go run cmd/jarvis/main.go
     ```
+
+<p align="center">
+  🚀 Made by <a href="https://www.linkedin.com/in/daniel-silva-1a3209196/">Daniel Silva</a>
+</p>
